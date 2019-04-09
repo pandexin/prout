@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <!-- <script src="vue.js"></script> -->
+    <script src="jquery.js"></script>
+</head>
+
+<body>
+    <!-- <script>
+        let res = 0;
+        function count(m) {
+            for (let i = 0; i <= m; i++) {
+                res += i;
+            }
+            return res;
+        }
+        var result = count(5);
+        console.log(result);
+    </script>
+
+
+    <script>
+        function count(m, s, n) {
+            switch (s) {
+                case "+":   
+                    return (m + n);
+                case "-":
+                    return (m - n);
+                case "*":
+                    return (m * n);
+                case "/":
+                    return (m / n);
+                    break;
+            }
+        }
+        var result = count(5, "+", 6);
+        console.log(result);
+        var result = count(5, "*", 6);
+        console.log(result);  
+    </script>
+
+    <script>
+        var res1 = 0;
+        function count(m) {
+            for (var i = 0; i < m; i++) {
+                if (i % 2 == 1) {
+                    res1 += i;
+                }
+            }
+            return res1;
+        }
+        var result = count(10);
+        console.log(result); 
+    </script> -->
+
+    <!-- <img src="1.jpg" alt="">
+    <button class="pic1">1</button>
+    <button class="pic2">2</button>
+    <button class="pic3">3</button>
+    <button class="pic4">4</button>
+    <script>
+        var img = document.querySelector("img")
+        var btn1 = document.querySelector("button.pic1")
+        var btn2 = document.querySelector("button.pic2")
+        var btn3 = document.querySelector("button.pic3")
+        var btn4 = document.querySelector("button.pic4")
+        btn1.onclick=function(){
+            img.src="2.jpg"
+        }
+        btn2.onclick=function(){
+            img.src="3.jpg"
+        }
+        btn3.onclick=function(){
+            img.src="4.jpg"
+        }
+        btn4.onclick=function(){
+            img.src="5.jpg"
+        }
+    </script> -->
+
+
+    <!-- <script>
+        var arr = [5,10,6,11,18,22,31,52,19];
+        var arr1 =[];
+        for(var i=0;i<arr.length;i++){
+            if(arr[i]%2==0){
+                arr1.push(arr[i])
+                console.log(arr[i])
+            }
+        }
+        console.log(arr1)
+    </script> -->
+
+
+    <!-- <div id="app">
+        <button @click="add">+</button>
+        <span>{{number}}</span>
+        <button @click="abb">-</button>
+    </div>
+    <script>
+        new Vue({
+            el:"#app",
+            data:{
+                number:0
+            },
+            methods:{
+                add(){
+                    this.number++
+                },
+                abb(){
+                    this.number--
+                },
+            }
+        })
+    </script> -->
+
+    <!-- <div id="app">
+        <button @click="changeImg">切换图片</button>
+        <div>
+            <img v-bind:src="imgSrc">
+        </div>
+    </div>
+    <script>
+        new Vue({
+            el: "#app",
+            data: {
+                imgSrc: "1.jpg"
+            },
+            methods: {
+                changeImg: function () {
+                    this.imgSrc = "2.jpg";
+                }
+            }
+        })
+    </script> -->
+
+    <!-- <div id="app">
+        <span>{{hours}}</span>
+        <span>{{minutes}}</span>
+        <span>{{seconds}}</span>
+    </div>
+    <script>
+        new Vue({
+            el: "#app",
+            data: {
+                hours: '',
+                minutes: '',
+                seconds: '',
+            },
+            created() {
+                setInterval(() => {
+                    let date = new Date();
+                    let hours = date.getHours();
+                    let minutes = date.getMinutes();
+                    let seconds = date.getSeconds();
+                    this.hours = hours;
+                    this.minutes = minutes;
+                    this.seconds = seconds;
+                }, 1000)
+            }
+        })
+    </script> -->
+
+
+    <!-- <div id="app">
+        <h1>{{studentName}}</h1>
+        <button @click="getName">点名</button>
+    </div>
+    <script>
+        new Vue({
+            el:"#app",
+            data:{
+                namelist:["a","b","c"],
+                studentName:'同学名字'
+            },
+            methods:{
+                getName(){
+                    this.studentName=this.namelist[this.getRandom()]
+                },
+                getRandom(){
+                    return Math.floor(Math.random()*this.namelist.length)
+                }
+            }
+        })
+    </script> -->
+
+    <!-- <script>
+        var arr=[5,10,6,11,18,22,31,52,19];
+        var arr1=[];
+        for(var i=0;i<arr.length;i++){
+            if(arr[i]%2==0){
+                arr1.push(arr[i])
+                console.log(arr[i])
+            }
+        }
+        console.log(arr1)
+    </script> -->
+
+    <!-- <h1></h1>
+    <script>
+        var h1 = document.querySelector("h1");
+        function getTime(){
+            var dateNow = new Date();
+            var hours = dateNow.getHours();
+            var minutes = dateNow.getMinutes();
+            var seconds = dateNow.getSeconds();
+            var strTimeNow = hours+":"+minutes+":"+seconds;
+            h1.innerHTML = strTimeNow;
+        }
+        getTime();
+        setInterval(getTime,1000)
+    </script> -->
+
+    <!-- <script>
+        function fun(){
+            var number = Math.floor(Math.random()*7+1);
+            return number;
+        }
+        console.log(fun())
+    </script> -->
+
+    <!-- <input type="text">
+    <span></span>
+    <button>开始验证</button>
+    <script>
+        var input = document.querySelector("input");
+        var span = document.querySelector("span");
+        var button = document.querySelector("button");
+        var reg = /^[a-zA-Z0-9\_]{5,12}\@[a-zA-Z0-9]{2,5}\.com$/;
+        input.onblur = function(){
+            if(reg.test(this.value)){
+                span.innerHTML = "验证通过";
+            }else{
+                span.innerHTML = "验证失败";
+            }
+        }
+    </script> -->
+
+
+    <!-- <script>
+        var arr = [5, 10, 6, 11, 18, 22, 11, 31, 6, 52, 19];
+        arr.sort();
+        for(var i=0;i<arr.length;i++){
+            if(arr[i]==arr[i+1]){
+                arr.splice(i,1);
+            }
+        }
+        console.log(arr)
+    </script> -->
+
+    <!-- <script>
+        var friends = ["This","is","JavaScript","and","jQuery"];
+        var str = friends.join();
+        console.log(str)
+    </script> -->
+
+    <!-- <script>
+        var arr = [];
+        var str = "This is JavaScript and jQuery";
+        arr.push(str);
+        console.log(arr)
+    </script> -->
+
+    <!-- <span>点名</span>
+    <button>按钮</button>
+    <script>
+        var arr=["赵","钱","孙","李","周","吴","郑"];
+        var span=document.querySelector("span");
+        var btn=document.querySelector("button");
+        btn.onclick=function(){
+            var num=Math.random();
+            var arr1=arr.length;
+            var rand=Math.floor(num*arr1);
+            span.innerHTML=arr[rand]
+        }
+    </script> -->
+
+
+
+    <!-- <script>
+        var arr=[5,50,6,11,18,62,31,52,19];
+        for(var i=0;i<arr.length-1;i++){
+            for(var j=0;j<arr.length-1-i;j++){
+                if(arr[j]>arr[j+1]){
+                    var temp=arr[j];
+                    arr[j]=arr[j+1];
+                    arr[j+1]=temp;
+                }
+            }
+        }
+        console.log(arr)
+    </script> -->
+
+
+    <!-- <div id="app">
+        <button @click="abb">+</button>
+        <span>{{number}}</span>
+        <button @click="add">-</button>
+    </div>
+    <script>
+        new Vue({
+            el:"#app",
+            data:{
+                number:0,
+            },
+            methods:{
+                abb(){
+                    this.number++
+                },
+                add(){
+                    this.number--
+                }
+            }
+        })
+    </script> -->
+    
+    <img class="pic" src="" alt="">
+    <script>
+        $(".pic").attr("src","1.jpg");
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="vue.js"></script>
+</head>
+<body>
+    <div id="app">
+        <button @click="changeImg">切换图片</button>
+        <div>
+            <img v-bind:src="imgSrc" >
+        </div>
+    </div>
+    <script>
+        new Vue({
+            el:"#app",
+            data:{
+                imgSrc:"1.jpg"
+            },
+            methods:{
+                changeImg:function(){
+                    this.imgSrc="2.jpg"
+                }
+            }
+        })
+    </script>
+</body>
+</html>
