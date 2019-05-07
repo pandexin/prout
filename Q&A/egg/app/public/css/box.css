@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.BoxH {
+    width: 7.5rem;
+    height: 0.88rem;
+    background-color: #0091fe;
+}
+
+.BoxH img {
+    float: left;
+    font-size: 0.43rem;
+    margin-top: 0.3rem;
+    margin-left: 0.22rem;
+    line-height: 0.88rem;
+    width: 0.23rem;
+    height: 0.35rem;
+}
+
+.BoxH p {
+    float: left;
+    font-size: 0.34rem;
+    color: #ffffff;
+    line-height: 0.88rem;
+    margin-left: 2.5rem;
+}
+
+.BoxH span {
+    float: right;
+    line-height: 0.88rem;
+    margin-right: 0.3rem;
+    color: #ffffff;
+}
+
+.body {
+    width: 7.5rem;
+    height: 11.08rem;
+    border-bottom: 1px solid #e7e7e7;
+    box-sizing: border-box;
+}
+
+.body .pica {
+    width: 7.5rem;
+    height: 6.63rem;
+    background-image: url(../image/pic.jpg);
+    background-size: 100% 100%;
+}
+
+.body .pica .Safety_situation {
+    color: #ffffff;
+    font-size: 0.27rem;
+    margin-top: 2.51rem;
+    margin-left: 3.23rem;
+    float: left;
+}
+
+.body .pica .security {
+    clear: both;
+    float: left;
+    font-size: 0.66rem;
+    color: #ffffff;
+    margin-left: 3.1rem;
+}
+
+.body .state {
+    width: 7.5rem;
+    height: 0.9rem;
+    border-top: 1px solid #0091fe;
+    background-color: #0091fe;
+}
+
+.body .state .position {
+    font-size: 0.26rem;
+    width: 3.75rem;
+    text-align: center;
+    border-right: 1px solid #2fa8ff;
+    box-sizing: border-box;
+    line-height: 0.9rem;
+    color: #ffffff;
+    float: left;
+}
+
+.body .state .current_state {
+    float: left;
+    font-size: 0.26rem;
+    width: 3.75rem;
+    text-align: center;
+    line-height: 0.9rem;
+    color: #ffffff;
+}
+
+.body .sensitivity {
+    width: 7.5rem;
+    height: 3.55rem;
+}
+
+.body .sensitivity .set {
+    width: 7.5rem;
+    height: 1.4rem;
+}
+
+.body .sensitivity .set .Setting {
+    font-size: 0.3rem;
+    color: #cecece;
+    margin-top: 0.8rem;
+    margin-left: 0.3rem;
+    float: left;
+}
+
+.body .sensitivity .set .introduce {
+    font-size: 0.22rem;
+    color: #008dff;
+    margin-top: 0.89rem;
+    margin-left: 4.21rem;
+    float: left;
+}
+
+.body .sensitivity .level {
+    width: 6.89rem;
+    height: 0.55rem;
+    margin: 0 auto;
+}
+
+.body .sensitivity .level .btn {
+    float: left;
+    border: 0px;
+    width: 1.7rem;
+    height: 0.55rem;
+    border-right: 1px solid #ffffff;
+    box-sizing: border-box;
+}
+
+.body .sensitivity .series {
+    width: 6.89rem;
+    height: 0.4rem;
+    margin: 0 auto;
+}
+
+.body .sensitivity .series li {
+    float: left;
+    list-style: none;
+    color: #b2b2b2;
+    font-size: 0.2rem;
+    width: 1.72rem;
+    margin-top: 0.2rem;
+    text-align: center;
+}

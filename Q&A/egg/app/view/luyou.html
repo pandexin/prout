@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../public/css/layout.css">
+    <script src="../public/js/fontsizeset.js"></script>
+    {% block style %} {% endblock %}
+</head>
+
+<body>
+    {% block content %} {% endblock %}
+    <ul class="menu">
+        <li>
+            <a href="/state">
+                <img src="../public/image/tab_safebox@2x.png" alt="" class="boxpic">
+                <span class="s1">保险箱</span>
+            </a>
+        </li>
+        <li>
+            <a href="/open">
+                <img src="../public/image/tab_opendoor@2x.png" alt="" class="openpic">
+                <span class="s2">开门记录</span>
+            </a>
+        </li>
+        <li>
+            <a href="/recoed">
+                <img src="../public/image/tab_alarm@2x.png" alt="" class="recoedpic">
+                <span class="s3">报警记录</span>
+            </a>
+        </li>
+        <li>
+            <a href="/Associated">
+                <img src="../public/image/tab_associated_pre@2x.png" alt="" class="userpic">
+                <span class="s4">关联用户</span>
+            </a>
+        </li>
+    </ul>
+    <div class="clear"></div>
+
+
+    {% block js %} {% endblock %}
+</body>
+
+</html

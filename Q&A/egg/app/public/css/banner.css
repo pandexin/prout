@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.banner{
+    width: 100%;
+    height: 11.39rem;
+    background-image: url("../image/back.jpg");
+    background-size:118%;
+    background-position:-40px 1px;
+    background-repeat :no-repeat;
+}
+.z{
+    float: left;
+    color: white;
+    position:absolute;
+    left: 2.56rem;
+    top: 3.2rem;
+    font-size: 55px;
+}
+.zn{
+    width: 1.5rem;
+    height: 0.03rem;
+    background-color: white;
+    float: left;
+    transform:rotate(-50deg);
+    position:absolute;
+    left: 2.8rem;
+    top: 4.4rem;
+}
+.n{
+    float: left;
+    color: white;
+    position:absolute;
+    left: 3.5rem;
+    top: 4.4rem;
+    font-size: 55px;
+}
+.bxx{
+    float: left;
+    width: 0.5rem;
+    height: 1.5rem;
+    font-size: 35px;
+    color: white;
+    position:absolute;
+    left: 2.56rem;
+    top: 5.4rem;
+}
+.aqg{
+    float: left;
+    width: 0.5rem;
+    height: 1.5rem;
+    font-size: 20px;
+    color: white;
+    position:absolute;
+    left: 3.56rem;
+    top: 5.8rem;
+    line-height:19px;
+}

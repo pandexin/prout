@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#app{
+    width: 100%;
+}
+.Associatedheader{
+    width: 100%;
+    height: 0.88rem;
+    background-color: black;
+    float: left;
+}
+.Associatedheader ul{
+    width: 100%;
+    height: 100%;
+}
+.Associatedheader li{
+    width: 100%;
+    height: 50%;
+}
+.url{
+    width: 0.24rem;
+    height: 0.38rem;
+    float: left;
+    margin-left: 0.2rem;
+    margin-top: 0.3rem;
+  }
+.sp1{
+    font-size: 22px;
+    color: white;
+    float: left;
+    margin-top: 0.2rem;
+    margin-left: 2rem;
+}
+.pic{
+    width: 0.38rem;
+    height: 0.46rem;
+    float: left;
+    color: white;
+    margin-left: 1.5rem;
+    margin-top: 0.2rem;
+}
+.Associatedbanner{
+    width: 100%;
+    height: 0.98rem;
+    background-color: #f7ebbb;
+    float: left;
+}
+.sp2{
+    font-size: 15px;
+    float: left;
+    margin-left: 0.3rem;
+    margin-top: 0.3rem;
+}
+.sp3{
+    font-size: 35px;
+    float: left;
+    color:red;
+    margin-left: 1.5rem;
+}
+.Associatedcontainer{
+    width: 100%;
+    height: 8.5rem;
+    float: left;
+}
+.Associatedcontainer .Associatedcontainerone{
+    /* width: 7.5rem; */
+    height: 1.44rem;
+    border-bottom: 0.01rem solid #e7e7e7;
+}
+.Associatedcontainer .Associatedcontainerone .pic2{
+    width: 0.9rem;
+    height: 0.9rem;
+    background-color: #9981ef;
+    float: left;
+    margin-left: 0.3rem;
+    margin-top: 0.3em;
+}
+.Associatedcontainer .Associatedcontainerone .sp4{
+    float: left;
+    font-size: 23px;
+    margin-left: 0.25rem;
+    margin-top: 0.5rem;
+}
+.Associatedcontainer .Associatedcontainertwo{
+    /* width: 7.5rem; */
+    height: 1.44rem;
+    border-bottom: 0.01rem solid #e7e7e7;
+}
+.Associatedcontainer .Associatedcontainertwo .sp5{
+    float: left;
+    font-size: 23px;
+    margin-left: 0.15rem;
+    margin-top: 0.5rem;
+}
+.Associatedcontainer .Associatedcontainertwo .box{
+    float: left;
+    width: 1.4rem;
+    height: 1.4rem;
+    background-color: red;
+    margin-left:2.3rem;
+}
+.Associatedcontainer .Associatedcontainertwo .sp6{
+    float: left;
+    font-size: 25px;
+    background-color: red;
+    color: white;
+    margin-left: 0.25rem;
+    margin-top: 0.4rem;
+}
+.Associatedcontainer .Associatedcontainerthree{
+    /* width: 7.5rem; */
+    height: 1.44rem;
+    border-bottom: 0.01rem solid #e7e7e7;
+}
+.Associatedcontainer .Associatedcontainerthree .pic3{
+    width: 0.9rem;
+    height: 0.9rem;
+    background-color: #9981ef;
+    float: left;
+    margin-left: 0.3rem;
+    margin-top: 0.3em;
+}
+.Associatedcontainer .Associatedcontainerthree .sp7{
+    float: left;
+    font-size: 23px;
+    margin-left: 0.25rem;
+    margin-top: 0.5rem;
+}
+.Associatedcontainer .Associatedcontainerfour{
+    /* width: 7.5rem; */
+    height: 1.44rem;
+    border-bottom: 0.01rem solid #e7e7e7;
+}
+
+.Associatedcontainer .Associatedcontainerfour .pic4{
+    width: 0.9rem;
+    height: 0.9rem;
+    background-color: #9981ef;
+    float: left;
+    margin-left: 0.3rem;
+    margin-top: 0.3em;
+}
+.Associatedcontainer .Associatedcontainerfour .sp8{
+    float: left;
+    font-size: 23px;
+    margin-left: 0.25rem;
+    margin-top: 0.5rem;
+}
+.Associatedfooter{
+    width: 100%;
+    height: 0.98rem;
+    float: left;
+}
+.bxx{
+    width: 1.5rem;
+    height: 0.98rem;
+    float: left;
+}
+.lypic1{
+    width: 0.5rem;
+    height: 0.5rem;
+    float: left;
+    margin-left: 0.7rem;
+    margin-top: 0.16rem;
+}
+.scr1{
+    font-size: 12px;
+    float: left;
+    margin-left: 0.6rem;
+    /* margin-top: 0.1rem; */
+}
+ .kmjl{
+    width: 1.55rem;
+    height: 0.98rem;
+    float: left;
+}
+.lypic2{
+    width: 0.5rem;
+    height: 0.5rem;
+    float: left;
+    margin-left: 0.65rem;
+    margin-top: 0.16rem;
+}
+.scr2{
+    font-size: 12px;
+    float: left;
+    margin-left: 0.5rem;
+    /* margin-top: 0.1rem; */
+}
+  .bjjl{
+    width: 1.6rem;
+    height: 0.98rem;
+    float: left;
+}
+.lypic3{
+    width: 0.5rem;
+    height: 0.5rem;
+    float: left;
+    margin-left: 0.7rem;
+    margin-top: 0.16rem;
+}
+.scr3{
+    font-size: 12px;
+    float: left;
+    margin-left: 0.5rem;
+    /* margin-top: 0.1rem; */
+}
+   .glyh{
+    width: 1.6rem;
+    height: 0.98rem;
+    float: left;
+}
+.lypic4{
+    width: 0.5rem;
+    height: 0.5rem;
+    float: left;
+    margin-left: 0.6rem;
+    margin-top: 0.16rem;
+}
+.scr4{
+    font-size: 12px;
+    float: left;
+    margin-left: 0.5rem;
+    /* margin-top: 0.1rem; */
+}

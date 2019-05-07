@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../public/css/state.css">
+    {% block style %}
+    {% endblock %}
+</head>
+
+<body>
+    <div class="box">
+        <div id="app">
+            <div class="box-top">
+                <a href="/ReturnS"><img class="pic" src="../public/image/back@2x.png" alt=""></a>
+                <span class="font">{{font}}</span>
+                <a href="/details"><img class="pic1" src="../public/image/more@2x.png" alt=""></a>
+            </div>
+            <div class="header1">
+                <div class="word-box">
+                    <span class="word11">{{word1}}</span>
+                    <span class="word22">{{word2}}</span>
+                </div>
+                <ul class="list">
+                    <li class="val1">{{val1}}</li>
+                    <li class="val2">{{val2}}</li>
+                </ul>
+            </div>
+        </div>
+        <div id="app2">
+            <div id="header">
+                <ul class="list">
+                    <li class="word1">{{word3}}</li>
+                    <li class="word2">{{word4}}</li>
+                </ul>
+                <ul class="imgList">
+                    <li><img src="../public/image/wxls.jpg" alt=""></li>
+                    <li><img src="../public/image/wxhs.jpg" alt=""></li>
+                    <li><img src="../public/image/wxhs.jpg" alt=""></li>
+                    <li><img src="../public/image/wxhs.jpg" alt=""></li>
+                </ul>
+                <ul class="wordList">
+                    <li><span class="font">{{font1}}</span></li>
+                    <li><span class="font1">{{font2}}</span></li>
+                    <li><span class="font1">{{font3}}</span></li>
+                    <li><span class="font1">{{font4}}</span></li>
+                </ul>
+            </div>
+            <router-link to="/Subrouter"></router-link>
+        </div>
+        <div id="app3">
+            <div class="footer">
+                <div class="bxx">
+                    <a href=""><img class="pic1" src="../public/image/tab_safebox_pre@2x.png" alt=""></a>
+                    <span class="scr1">保险箱</span>
+                </div>
+                <div class="kmjl">
+                    <a href="/record"><img class="pic2" src="../public/image/tab_opendoor@2x.png" alt=""></a>
+                    <span class="scr2">开门记录</span>
+                </div>
+                <div class="bjjl">
+                    <a href="/add"><img class="pic3" src="../public/image/tab_alarm@2x.png" alt=""></a>
+                    <span class="scr3">报警记录</span>
+                </div>
+                <div class="glyh">
+                    <a href="/Associated"><img class="pic4" src="../public/image/tab_associated@2x.png" alt=""></a>
+                    <span class="scr4">关联用户</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    {% block content %}
+    {% endblock %}
+
+    {% block js %}
+    <script src="/public/js/fontsizeset.js"></script>
+    {% endblock %}
+</body>
+
+</html>

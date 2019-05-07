@@ -1,0 +1,73 @@
+
+{% extends "luyou.html" %} 
+
+
+    <link rel="stylesheet" href="../public/css/Associated.css">
+    {% block style %}
+    {% endblock %}
+
+        {% block content %}
+    <div id="app">
+        <div class="Associatedheader">
+              <ul class="content">
+                    {% for item in associatednList %}
+                    <li class="associatedlist">
+                        <img class="url" src="../public/image/back@2x.png" alt="">
+                        {{item.name}}
+                        <span class="sp1">{{item.sp1}}</span>
+                        <img class="pic" src="../public/image/add@2x.png" alt="">
+                    </li>
+                    {% endfor %}
+                </ul>
+        </div>
+
+        <div class="Associatedbanner">
+            <span class="sp2">{{sp2}}</span>
+            <span class="sp3">{{sp3}}</span>
+        </div>
+        <div class="Associatedcontainer">
+            <div class="Associatedcontainerone">
+                <img class="pic2" src="{{pic2}}" alt="">
+                <span class="sp4">{{sp4}}</span>
+            </div>
+            <div class="Associatedcontainertwo">
+                <span class="sp5">{{sp5}}</span>
+                <div class="box">
+                    <span class="sp6">{{sp6}}</span>
+                </div>
+            </div>
+            <div class="Associatedcontainerthree">
+                <img class="pic3" src="{{pic3}}" alt="">
+                <span class="sp7">{{sp7}}</span>
+            </div>
+            <div class="Associatedcontainerfour">
+                <img class="pic4" src="{{pic4}}" alt="">
+                <span class="sp8">{{sp8}}</span>
+            </div>
+        </div>
+        <!-- <div class="Associatedfooter">
+            <div class="bxx">
+                <img class="lypic1" src="{{lypic1}}" alt="">
+                <a class="scr1" href="/state">{{scr1}}</a>
+            </div>
+            <div class="kmjl">
+                <img class="lypic2" src="{{lypic2}}" alt="">
+                <a class="scr2" href="">{{scr2}}</a>
+            </div>
+            <div class="bjjl">
+                <img class="lypic3" src="{{lypic3}}" alt="">
+                <a class="scr3" href="">{{scr3}}</a>
+            </div>
+            <div class="glyh">
+                <img class="lypic4" src="{{lypic4}}" alt="">
+                <a class="scr4" href="">{{scr4}}</a>
+            </div>
+        </div> -->
+            {% endblock %}
+    </div>
+
+
+
+    {% block js %}
+    <script src="../public/js/fonts izeset.js"></script>
+    {% endblock %}

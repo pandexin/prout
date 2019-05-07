@@ -1,0 +1,53 @@
+{% extends "luyou.html" %} {% block content %}
+<link rel="stylesheet" href="../public/css/box.css">
+
+<div class="BoxH">
+    <a href="/page">
+        <img src="../public/image/back.png" alt>
+    </a>
+    <p>{{box}}</p>
+    <a href="/details">
+        <span>···</span>
+    </a>
+</div>
+<div class="body">
+    <div class="pica">
+        <!-- <img :src="pic" alt=""> -->
+        <span class="Safety_situation">{{Safety_situation}}</span>
+        <span class="security">{{security}}</span>
+    </div>
+    <div class="state">
+        <p class="position">{{position}}</p>
+        <p class="current_state">{{current_state}}</p>
+    </div>
+    <div class="sensitivity">
+        <div class="set">
+            <p class="Setting">{{Setting}}</p>
+            <p class="introduce">{{introduce}}</p>
+        </div>
+        <div class="level">
+
+            <button class="btn one" :style="[divstyle1]" @click="btn1"></button>
+            <button class="btn two" :style="[divstyle2]" @click="btn2"></button>
+            <button class="btn three" :style="[divstyle3]" @click="btn3"></button>
+            <button class="btn four" :style="[divstyle4]" @click="btn4"></button>
+
+        </div>
+        <div class="series">
+            <ul>
+                {% for item in list %}
+                <li>
+                    {{item}}
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+</div>
+
+{% endblock %} {% block js %}
+<script src="../public/js/fontsizeset.js"></script>
+<script>
+    // alert("写在block中的js")
+</script>
+{% endblock %}
