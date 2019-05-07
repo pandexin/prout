@@ -1,4 +1,4 @@
-#中英文对照
+# 中英文对照
 1. for：因为
 2. while：一会儿
 3. function：函数
@@ -18,7 +18,7 @@
 17. add： 添加
 18. student: 学生
 19. delete： 删除、
-##命名规范
+## 命名规范
 1. 头：header
 2. 广告：banner
 3. 内容：content/containe
