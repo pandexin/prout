@@ -1,4 +1,8 @@
-# vue style添加scoped属性
+# vue笔记
+1. 安装项目依赖:npm install/cnpm install
+2. 启动vue项目:npm run serve #2开发vue项目 写代码要写在src目录里面 components：组件的意思
+3. npm run build 把所有程序打包成html,css和js文件 执行完build会多一个dist文件 想要发布自己做外部应用的话把dist目录里的所有文件发布到服务器上就可以了 http-server用服务器启动dist里面html.css和js文件 #3引入组件 import 引入组件 import 输入要引入组件的名字 from 引入组件的文件地址 注册组件 components：{ 组件的名字 }
+## vue style添加scoped属性
 1. 在vue组件中我们我们经常需要给style添加scoped来使得当前样式只作用于当前组件的节点。
 2. 添加scoped之后，实际上vue在背后做的工作是将当前组件的节点添加一个像data-v-1233这样唯一属性的标识，当然也会给当前style的所有样式添加[data-v-1233]这样的话，就可以使得当前样式只作用于当前组件的节点。
 3. 但是 我们需要注意的是：如果我们添加了子组件，同样的，如果子组件也用scoped标识了，那么在父组件中是不能设置子组件中的节点的样式。
