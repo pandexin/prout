@@ -18,6 +18,8 @@
 17. add： 添加
 18. student: 学生
 19. delete： 删除、
+20. redirect 重定向
+21. registers 寄存器
 ## 命名规范
 1. 头：header
 2. 广告：banner

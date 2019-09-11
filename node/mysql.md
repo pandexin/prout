@@ -51,7 +51,7 @@ default-storage-engine=INNODB
    | information_schema |
    | mysql              |
    | performance_schema |
-   | sys                |
+   | sys                |       
    +--------------------+
    4 rows in set (0.14 sec)
 
