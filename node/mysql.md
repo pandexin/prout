@@ -40,7 +40,8 @@ basedir=C:\\web\\mysql-8.0.11
 character-set-server=utf8
 ### 创建新表时将使用的默认存储引擎
 default-storage-engine=INNODB
-
+### MySQL插入中文数据的方法
+创建MySQL数据库时设置默认编码方式-CREATE DATABASE test_db DEFAULT CHARACTER SET UTF8;
 
 
 # 创建数据库

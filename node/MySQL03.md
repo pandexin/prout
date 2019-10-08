@@ -153,3 +153,8 @@ drop table score;(删除表数据)；
 
 
 
+
+
+
+
+
